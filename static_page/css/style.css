@@ -1,0 +1,265 @@
+.header {
+    background-color: #3B3747;
+    height: 100px;
+    position: relative;
+    color: white;
+}
+
+.header .search, .header .store, .header .login-menu {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu {
+    background-color: #464957;
+    height: 50px;
+}
+
+.search {
+    position: absolute;
+    align-items: center;
+    top: 30px;
+}
+
+.login-menu {
+    position: absolute;
+    right: 0px;
+    top: 20px;
+}
+
+.login-menu li {
+    display: inline;
+    margin: 10px;
+}
+
+.my-menu {
+    width: 100px;
+    /*display: flex;*/
+    background-color: grey;
+    border-radius: 3px;
+    padding: 15px;
+}
+
+.my-menu span {
+    padding-left: 10px;
+}
+
+.store #logo, .store #b2b {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.store #logo {
+    width: 200px;
+    height: 80px;
+}
+
+.store #b2b {
+    position: relative;
+    top: 15px;
+}
+
+.store li {
+    list-style-type: none;
+}
+
+.store a{
+    color: green;
+    font-weight: bold;
+}
+
+.header input {
+    height: 35px;
+    width: 400px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    padding: 4px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumb {
+    margin-left: 2%;
+}
+
+.menu {
+    position: relative;
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu li {
+    margin-left: 10px;
+    display: inline;
+    color: white;
+}
+
+.menu a {
+    color: white;
+}
+
+.alert {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    display: inline-block;
+}
+
+.sidebar li {
+    list-style-type: none;
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#active {
+    font-weight: bold
+}
+
+.profile {
+    width: 80%;
+    display: inline-block;
+}
+
+.left-column {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right-column {
+    margin-left: 5%;
+    vertical-align: top;
+    width: 40%;
+    display: inline-block;
+}
+
+.change-password {
+    display: flex;
+    text-wrap: nowrap;
+    width: 150px;
+}
+
+input[type=checkbox]{
+    height: 15px;
+    margin-left: 0;
+}
+
+.notification {
+    display: none;
+    border: 2px solid red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #F4F4F4;
+    color: red;
+    padding: 2px;
+}
+
+.error {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    height: auto;
+}
+
+.star {
+    color: red;
+}
+
+.footer {
+    margin-top: 10%;
+    background-color: #464957;
+    height: 200px;
+    color: white;
+}
+
+.footer li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.platform {
+    display: inline-block;
+    padding-right: 20px;
+    border-right: 2px solid grey;
+
+}
+
+.platform a {
+    color: grey;
+}
+
+.footer-menu {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer-menu li {
+    padding-right: 20px;
+}
+
+.footer-menu a{
+    color: white;
+}
+
+.footer hr {
+    width: 90%;
+}
+
+.copyright {
+    width: 100%;
+    display: inline-block;
+    color: grey;
+}
+
+.copyright li {
+    padding-left: 10%;
+    width: 20%;
+}
+.copyright a {
+    color: grey;
+}

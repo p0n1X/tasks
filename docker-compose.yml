@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+    php_app:
+        image: php:8.2-apache
+        container_name: krez
+        restart: always
+        volumes:
+            - "./:/var/www/html/"
+        ports:
+            - "80:80"

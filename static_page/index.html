@@ -1,0 +1,128 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="header">
+    <div class="store">
+        <img id="logo" src="image/logo.png">
+        <div id="b2b">
+            <ul>
+                <li>Верига магазини Krez:</li>
+                <li><a href="">Krez Alians B2B <i class="fa fa-angle-down"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="search">
+        <input class="fa" id="search" type="text" name="search" placeholder="&#xF002; Търси по име, sku, марка...">
+    </div>
+    <div class="login-menu">
+        <ul>
+            <li class="my-menu"><i class="fa fa-user fa-2x "></i><span>Вход или регистрация</span></li>
+            <li><i class="fa fa-list fa-2x"></i></li>
+            <li><i class="fa fa-shopping-cart fa-2x"></i></li>
+            <li><i class="fa fa-plus-circle fa-2x"></i></li>
+        </ul>
+    </div>
+</div>
+<div class="menu">
+    <ul>
+        <li><i class="fa fa-bars"></i></li>
+        <li><a href="#">ВСИЧКИ ПРОДУКТИ</a></li>
+        <li class="alert"><a href="#">ПРОМОЦИИ</a></li>
+        <li><a href="#">МАРКИ</a></li>
+        <li><a href="#">БЛОГ</a></li>
+        <li><a href="#">ЗА НАС</a></li>
+        <li><a href="#">СКЛАДОВЕ</a></li>
+        <li><a href="#">КОНТАКТИ</a></li>
+    </ul>
+</div>
+<div class="breadcrumb"><a href="#">Начало</a> > <a href="#">Моят профил</a></div>
+<div class="content">
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">Моят профил</a></li>
+            <li><a href="#">Онлайн поръчки</a></li>
+            <li><a href="#">Всички поръчки</a></li>
+            <li><a href="#">Задължения/Фактури</a></li>
+            <li><a href="#">Данни за фактури</a></li>
+            <li><a href="#">Адресна книга</a></li>
+            <li><a href="#">Абонамент за бюлетин</a></li>
+            <li id="active"><a href="#">Настройки профил</a></li>
+            <li><a href="#">Изход</a></li>
+        </ul>
+    </div>
+    <div class="profile">
+        <h1> Настройки на профила </h1>
+        <div class="left-column">
+            <b>Информация на профила</b>
+            <hr>
+            <label for="first_name">Име:</label>
+            <input id="first_name" type="text" name="first_name" placeholder="Име">
+            <label for="last_name">Фамилия:</label>
+            <input id="last_name" type="text" name="last_name" placeholder="Фамилия">
+        </div>
+        <div class="right-column">
+            <b>E-mail и парола</b>
+            <hr>
+            <label for="email">E-mail:</label>
+            <input id="email" type="text" name="email" placeholder="user@mail.bg">
+
+            <div class="change-password">
+                <input id="change_password" type="checkbox">
+                <label for="change_password"><b>Промени парола</b></label>
+            </div>
+            <div class="field-password">
+                <label for="password"><b>Текуща парола: <span class="star">*</span></b></label>
+                <input id="password" type="text" name="password">
+                <span class="notification">Това поле е задължително!</b></span>
+            </div>
+            <div class="field-new-password">
+                <label for="password"><b>Нова парола: <span class="star">*</span></b></label>
+                <input id="new-password" type="text" name="new_password">
+                <span class="notification ">Сигурност на паролата: <b>Няма въведена парола</b></span>
+            </div>
+
+            <div class="field-confirm-password">
+                <label for="confirm-password"><b>Потвърдете новата парола: <span class="star">*</span></b></label>
+                <input id="confirm-password" type="text" name="confirm_password">
+                <span class="notification">Сигурност на паролата: <b>Няма въведена парола</b></span>
+            </div>
+            <input class="button" onclick="validate_data()" type="submit" name="submit" value="Запази">
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="info">
+        <div class="platform">
+            <b>КРЕЗ Алианс ЕООД</b></br>
+            B2B платформа <a href="">предназначена за корпоративни клиенти и обекти</a>
+        </div>
+        <div class="footer-menu">
+            <ul>
+                <li><a href="">За нас</a></li>
+                <li><a href="">Блог</a></li>
+                <li><a href="">Общи условия</a></li>
+                <li><a href="">Контакти</a></li>
+                <li><a href="">Къде да откриете нашите продукти</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="copyright">
+        <ul>
+            <li>ТМ КРЕЗ. Всички права запазени.</li>
+            <li><a href="">Политика за поверителност (GDPR)</a></li>
+            <li><a href="">Онлайн магазин от Stenik</a></li>
+        </ul>
+
+    </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>
